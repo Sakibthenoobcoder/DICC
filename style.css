@@ -207,6 +207,10 @@ section .title::after{
 /* about section styling */
 .about .title::after{
     content: "Who We Are";
+    background-color: #dfd7b8;
+}
+#about{
+    background-color: #dfdac5;
 }
 .about .about-content .left{
     width: 45%;
@@ -249,8 +253,8 @@ section .title::after{
 }
 /* services section styling */
 .services, .teams{
-    color:#fff;
-    background: #111;
+    color:rgb(0, 0, 0);
+    background: #dfd7b8;
 }
 .services .title::before,
 .teams .title::before{
@@ -258,12 +262,12 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #111;
+    background:#dfd7b8;
     content: "Our Current Events";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    background: #e0d093;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -313,9 +317,10 @@ section .title::after{
 /* teams section styling */
 .teams .title::after{
     content: "Our Hard Working Executives";
+ background-color: #dfd7b8;
 }
 .teams .carousel .card{
-    background: #222;
+    background: #e0d093;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -345,7 +350,7 @@ section .title::after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid #E99E30;
+    border: 5px solid #1a1919;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
@@ -361,7 +366,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid #E99E30!important;
+    border: 2px solid #111010!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -375,14 +380,14 @@ section .title::after{
 /* contact section styling */
 #contact{
     color: black;
-    background-color: #111111;
+    background-color: #dfd7b8;
 }
 .contact .title{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .contact .title::after{
     content: "Get in touch";
-    background-color: #111111;
+    background-color: #dfd7b8;
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -391,7 +396,7 @@ section .title::after{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
-    color: white;
+    color: black;
 }
 .contact .contact-content .left p{
     text-align: justify;
@@ -413,10 +418,10 @@ section .title::after{
 }
 .contact .contact-content .info .head{
     font-weight: 500;
-    color: white;
+    color: black;
 }
 .contact .contact-content .info .sub-title{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 /* footer section styling */
