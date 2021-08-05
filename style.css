@@ -556,3 +556,13 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
+
+#exe .title::after{
+    background:#dfd7b8;
+    content: "Our Hardworking Executives";
+}
+#post .title::after{
+    background:#dfd7b8;
+    content: "Our Facebook Posts";
+}
